@@ -127,3 +127,14 @@ header{
     justify-content: center;
     align-content: center;
 }
+.table th{
+    background-color: #1d0ea5;
+    padding: 3rem;
+    font-size: medium;
+}
+td{
+    font-size:large;
+}
+.nav-item a:hover{
+    color:#2998e2
+}
