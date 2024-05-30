@@ -69,10 +69,10 @@ header{
     margin-bottom: 2rem;
     text-align: center;
 }
-.actividades div{
+/* .actividades div{
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: flex-start; */
 }
 .map-1 {
 	width: 288px;
