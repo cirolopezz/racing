@@ -1,1 +1,240 @@
-/*# sourceMappingURL=styles.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+html {
+  font-size: 62.5%;
+}
+html body {
+  background-color: #2998e2;
+  /* Galeria futbol */
+  /* Galeria patin */
+}
+html body p {
+  color: #ffffff;
+  background-color: #1d5da7;
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+}
+html body h1 {
+  color: #0b4bac;
+  font-size: 4rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+}
+html body h2 {
+  color: #0b4bac;
+  font-size: 3rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+html body h3 {
+  color: #0b4bac;
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+html body header {
+  background-color: #1d0ea5;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+html body header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+html body .nav-item a:hover {
+  color: #2998e2;
+}
+html body a {
+  color: #ffffff;
+}
+html body form {
+  background-color: #1d0ea5;
+  border: solid 1px #161718;
+  margin: 2rem;
+  padding: 3 rem;
+  width: 100%;
+  color: #E6E6E6;
+}
+html body form input {
+  display: block;
+  margin: 2rem;
+  padding: 1rem;
+  width: 80%;
+}
+html body form textarea {
+  height: 10rem;
+  width: 100%;
+}
+html body form .btn-submit {
+  background-color: #2998e2;
+  border: solid 1px;
+  border-radius: 2%;
+  width: 5rem;
+  height: 3rem;
+}
+html body .galeria {
+  display: grid;
+  grid-gap: 0.5rem;
+  background-color: #1d0ea5;
+}
+html body .galeria {
+  grid-template-columns: 3fr 2fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+html body .galeria img {
+  width: 100%;
+  height: 100%;
+  border-radius: 3%;
+}
+html body .img-1 {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+html body .img-2 {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+html body .img-3 {
+  grid-column: 1/2;
+  grid-row: 3/4;
+}
+html body .img-4 {
+  grid-column: 2/3;
+  grid-row: 1/3;
+}
+html body .img-5 {
+  grid-column: 2/3;
+  grid-row: 3/4;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  html body .galeria {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
+  html body .img-1 {
+    grid-column: 1/3;
+    grid-row: 1/2;
+  }
+  html body .img-2 {
+    grid-column: 1/3;
+    grid-row: 2/3;
+  }
+  html body .img-3 {
+    grid-column: 1/3;
+    grid-row: 3/4;
+  }
+  html body .img-4 {
+    grid-column: 1/2;
+    grid-row: 4/5;
+  }
+  html body .img-5 {
+    grid-column: 2/3;
+    grid-row: 4/5;
+  }
+}
+html body .galeriapatin {
+  display: grid;
+  grid-gap: 0.5rem;
+  background-color: #1d0ea5;
+}
+html body .galeriapatin {
+  grid-template-columns: 1fr 1 1fr 1fr;
+}
+html body .galeriapatin img {
+  width: 100%;
+  height: 100%;
+  border-radius: 3%;
+}
+html body .imgpatin-1 {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+html body .imgpatin-2 {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+html body .imgpatin-3 {
+  grid-column: 3/4;
+  grid-row: 1/2;
+}
+html body .table {
+  margin: 2 rem;
+}
+html body .table th {
+  background-color: #1d0ea5;
+  /* padding: 3rem; */
+  font-size: medium;
+  text-align: center;
+}
+html body .table td {
+  font-size: large;
+}
+html body .table tr {
+  text-align: center;
+}
+html body #carouselExampleAutoplaying {
+  width: 50%;
+  height: auto;
+}
+html body div h2 {
+  padding-top: 20rem;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  html body #carouselExampleAutoplaying {
+    width: 100%;
+    height: auto;
+  }
+  html body div h2 {
+    padding-top: 2rem;
+  }
+}
+html body ul li {
+  list-style-type: none;
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  display: inline;
+  margin: 1.5rem;
+}
+html body footer {
+  background-color: #2a5f9b;
+  width: 100%;
+  height: 10rem;
+  margin-top: 2rem;
+  text-align: center;
+}
+html body .parallax {
+  background-image: url(../assests/equipo2.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+}
+html body .actividades {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+html body .mapa {
+  margin: 10rem;
+}
+html body .video {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}/*# sourceMappingURL=styles.css.map */

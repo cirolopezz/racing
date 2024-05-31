@@ -1,0 +1,27 @@
+form {
+    background-color: #1d0ea5;
+    border: solid 1px #161718;
+    margin: 2rem;
+    padding: 3 rem;
+    width: 100%;
+    color: #E6E6E6;
+    
+  } 
+  form {
+        input {
+        display: block;
+        margin: 2rem;
+        padding: 1rem; 
+        width: 80%;} 
+        textarea {
+        height: 10rem;
+        width: 100%;
+        }
+        .btn-submit {
+        background-color: #2998e2;
+        border: solid 1px;
+        border-radius: 2%;
+        width: 5rem;
+        height: 3rem;
+            }
+    }
