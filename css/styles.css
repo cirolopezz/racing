@@ -10,6 +10,14 @@ html{
 }
 
 
+<<<<<<< HEAD
+=======
+margin: 0 ;
+padding:0;
+width: 100%;
+max-width: 1200px;
+font-size: 62.5%;
+>>>>>>> 66187175664ffcd1f6236b10d63d87cf2f9f8d51
 p{
     color: #ffffff;
     background-color: #1d5da7;
@@ -74,6 +82,7 @@ header{
     margin-bottom: 2rem;
     text-align:center;
 }
+<<<<<<< HEAD
 .actividades {
     display: flex;
     flex-direction: row;
@@ -88,6 +97,25 @@ input
 {
 display: block;
 } 
+=======
+/* .actividades div{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start; */
+}
+.map-1 {
+	width: 288px;
+	height: 289px;
+	background: #E6E6E6;
+	border-color: #AAAAAA;
+	border-width: 1px;
+	border-style: solid;
+}
+/* input
+{
+display: block;
+} */
+>>>>>>> 66187175664ffcd1f6236b10d63d87cf2f9f8d51
 a
 {
     color: #ffffff;
