@@ -18,3 +18,32 @@ a
 {
 color: #ffffff;
 }
+// para animar al logo
+@keyframes moverLogo{
+    0%{
+        transform: scale(1,1);
+    }
+    25%{
+        transform: scale(1.1, 1.1);
+    }
+    50%{
+        transform: scale(1.1, 1.1);
+    }
+    75% {
+        transform: scale(1.1,1.1);
+    }
+    100% {
+        transform: scale(1,1);
+    }
+}
+.logo{
+// width: 10rem;
+// height: 10rem;
+// aqui llamamos a la animacion anterio
+animation-name: moverLogo;
+animation-duration: 3s;
+animation-delay: 0.5s;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+
+}

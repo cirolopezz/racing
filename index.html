@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Racing Club Carhue</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
     <header>
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
-            <a class="navbar-brand" href="./index.html"><img src="./assests/escudo racing.jpeg" alt="escudo"></a>
+            <a class="navbar-brand" href="./index.html"><img src="./assests/escudo racing.jpeg" alt="escudo" class="logo"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
@@ -41,7 +42,7 @@
         <p>Corría el año 1923 cuando un grupo de amigos que se reunían en un bulín mistongo de la calle Rivadavia para escuchar música, degustar vinos; y por supuesto hablar de fútbol, decidieron fundar un club, al que llamaron Racing Futbol Club. Fue un 6 de mayo de 1923.</p>
         <h2>ACTIVIDADES</h2>
         <section class="actividades row " >
-            <div class="col-lg-6 col-md-6 col-sm-12">   
+            <div class="col-lg-6 col-md-6 col-sm-12" data-aos="fade-right">   
                     <h3>
                         Futbol
                     </h3>
@@ -50,7 +51,7 @@
                     </p>
                     <a href="./pages/futbol.html">Saber mas</a>
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="col-lg-6 col-md-6 col-sm-12" data-aos="fade-left">
                 <h3>
                     Voley
                 </h3>
@@ -60,7 +61,7 @@
             </div>
       </section>
       <section class="actividades row" >
-        <div class="col-lg-6 col-md-6 col-sm-12"> 
+        <div class="col-lg-6 col-md-6 col-sm-12" data-aos="fade-right"> 
                 <h3>
                     Tenis
                 </h3>
@@ -69,7 +70,7 @@
                 </p>
                 <a href="./pages/tenis.html">Saber mas</a>
          </div>
-         <div class="col-lg-6 col-md-6 col-sm-12">  
+         <div class="col-lg-6 col-md-6 col-sm-12" data-aos="fade-left">  
                 <h3>
                     Patin
                 </h3>
@@ -121,5 +122,10 @@
         </nav>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+            <script>
+            AOS.init();
+            </script>  
+</body>
 </body>
 </html>
